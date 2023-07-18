@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage - Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=Cousine&family=Cuprum&family=Oswald&family=Poppins:wght@200;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="formbg.jpg" title="Person-browsing-image" alt="form-background-image">
+        <div class="form-content">
+            <form method="post" action="form.php" autocomplete="off">
+                <h2 class="form-heading">Log in</h2>
+                <div class="box">
+                    <input type="text" class="first-input" title="User name" name="name" id="name"
+                        placeholder="Name *" />
+                    <input type="text" title="Last name" name="lname" id="lname" placeholder="Last Name" />
+                </div>
+                <input type="text" title="Password" name="Password" id="Password" placeholder="Password *" />
+                <input type="text" class="cpass" title="Confirm Password" name="cpassword" id="cpassword"
+                    placeholder="Confirm Password" />
+                <a href="form.php" id="submit">Submit</a>
+                <a href="#" type="submit" id="submit">Cancel</a>
+                <div class="remember">Forget password ? <a href="#">Click here</a></div>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook" title="facebook"></i>
+                    <i class="fa-solid fa-envelope" title="e-mail"></i>
+                    <i class="fa-brands fa-twitter" title="twitter"></i>
+                    <i class="fa-solid fa-house" title="Home"></i>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

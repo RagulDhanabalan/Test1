@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+    background-color: #88a9f0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    color: #fff;
+    width: 800px;
+    background-color: #fff;
+    height: 450px;
+    border: 1px solid #fff;
+    padding: 3px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.container img {
+    width: 370px;
+    height: 442px;
+    flex: 1;
+}
+
+.form-content {
+    height: 442px;
+    width: 370px;
+    margin-left: 3px;
+    /* border: 1px solid green; */
+    flex: 1;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.form-content form input {
+    font-family: 'Cormorant Garamond', serif;
+    display: block;
+    width: 100%;
+    padding: 2px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #d3e5f1;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.form-content form input:hover {
+    border: none;
+    outline: none;
+}
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+.first-input {
+    margin-right: 5px;
+}
+
+.form-heading {
+    color: #a1b2ef;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form-heading::first-letter {
+    color: red;
+}
+
+.box {
+    display: flex;
+}
+
+.box input {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+#submit {
+    width: 100%;
+    height: 35px;
+    display: block;
+    background-color: #2596be;
+    text-align: center;
+    text-decoration: none;
+    padding: 2px;
+    margin-bottom: 5px;
+    color: #fff;
+
+}
+
+#submit:hover {
+    background-color: #064e88;
+    transition: .3s;
+}
+
+.remember {
+    margin-top: 15px;
+    color: #000;
+    text-align: center;
+
+}
+
+#cpassword {
+    margin-bottom: 15px;
+}
+
+.remember a {
+    /* position: relative; */
+    color: #EC0A42;
+    text-decoration: none;
+
+}
+
+.remember>a:hover {
+    /* cursor: pointer; */
+    color: #218806;
+    transition: 1s;
+    border-bottom: 1px solid #218806;
+    ;
+    ;
+}
+
+.icons {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    text-align: center;
+    color: #000;
+    font-size: 1.6rem;
+}
+
+.icons:hover {
+    transition: .2s ease-in;
+}
+
+.icons i {
+    margin-left: 2px;
+    padding: 5px;
+    border-radius: 3px;
+    transition: all .2s;
+}
+
+.icons i:hover {
+    background-color: #ccc;
+}
